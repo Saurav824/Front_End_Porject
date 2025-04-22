@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Blue Voile Chat</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url(imggimg.jpg);
+            font-family: Arial, sans-serif;
+        }
+        .login-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        h2 {
+            color: #4682B4;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .input-group {
+            margin-bottom: 1rem;
+        }
+        input {
+            width: 100%;
+            padding: 0.8rem;
+            border: 2px solid #89CFF0;
+            border-radius: 5px;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+        input:focus {
+            outline: none;
+            border-color: #4682B4;
+        }
+        button {
+            width: 100%;
+            padding: 0.8rem;
+            background: #4682B4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #4169E1;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <div class="input-group">
+            <input type="tel" id="phone" placeholder="Phone Number (10 digits)" required>
+        </div>
+        <div class="input-group">
+            <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <button onclick="login()">Login</button>
+    </div>
+
+    <script>
+        function login() {
+            const phone = document.getElementById('phone').value;
+            const password = document.getElementById('password').value;
+            const phoneRegex = /^\d{10}$/;
+
+            if (!phone || !password) {
+                alert('Please enter both Phone Number and Password');
+                return;
+            }
+
+            if (!phoneRegex.test(phone)) {-
+                alert('Incorrect Phone Number! Please enter a vaid phone number.');
+                document.getElementById('phone').value = '';
+                return;
+            }
+
+            alert('Login Successful!');
+            window.location.href = 'chatting.html';
+        }
+    </script>
+</body>
+</html>
