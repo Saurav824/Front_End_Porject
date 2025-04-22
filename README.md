@@ -124,3 +124,10 @@ Please ensure code follows the existing style and includes comments for clarity.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+![search_04](https://github.com/user-attachments/assets/f76e25fa-2bd4-4bc7-9f19-c27a75bb00b0)
+![Regestration](https://github.com/user-attachments/assets/99956b16-182e-4235-927f-60b85423f830)
+![profile_03](https://github.com/user-attachments/assets/a679565f-5c87-4d7f-aa2b-104cda939817)
+![login_first](https://github.com/user-attachments/assets/63a88aac-6ef6-4979-8bc1-3837b40dd80e)
+![Group_05](https://github.com/user-attachments/assets/e4ec1a8c-38f8-4506-800c-9af34284d495)
+![comunity_06](https://github.com/user-attachments/assets/500743c6-ae64-401a-ae84-639bc162e38b)
+![chatting_page_02](https://github.com/user-attachments/assets/77fc665d-a0d1-4cca-a50d-b2c40fd1d453)
